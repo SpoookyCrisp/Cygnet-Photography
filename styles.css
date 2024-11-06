@@ -21,6 +21,39 @@ nav ul li {
     margin: 0 15px;
 }
 
+nav ul {
+    list-style-type: none;
+    position: relative; /* Needed for absolute positioning of dropdown */
+}
+
+nav ul li {
+    display: inline-block; /* Display items in a line */
+    position: relative; /* Needed for positioning the dropdown */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Position it below the Services link */
+    background-color: white; /* Background color */
+    border: 1px solid #ccc; /* Border for dropdown */
+    z-index: 1; /* Ensure it appears above other content */
+}
+
+nav ul li:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-content a {
+    display: block; /* Make links block elements */
+    padding: 8px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    color: black; /* Text color */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Background color on hover */
+}
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
