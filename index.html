@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cygnet Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cygnet Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Gallery</a></li>
+                <li><a href="services.html">Services</a>
+                    <div class="dropdown-content">
+                        <a href="services.html#event-photography">Event Photography</a>
+                        <a href="services.html#portrait-photography">Portrait Photography</a>
+                        <a href="services.html#motorsports-photography">Motorsports Photography</a>
+                        <a href="services.html#automotive-photography">Automotive Photography</a>
+                        <a href="services.html#camera-sales">Camera Sales</a>
+                    </div></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Cygnet Photography</h2>
+        <p>Capturing moments that last a lifetime.</p>
+    </section>
+
+    <section id="work">
+        <h2>Work</h2>
+        <div class="gallery-container">
+            <img src="image1.jpg" alt="Sample Image 1">
+            <img src="image2.jpg" alt="Sample Image 2">
+            <img src="image3.jpg" alt="Sample Image 3">
+            <img src="image4.jpg" alt="Sample Image 4">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul style="list-style-type: none;">
+            <li style="list-style-type: none;"></li>
+            <li>Event Photography</li>
+            <li>Portrait Photography</li>
+            <li>Motorsports Photography</li>
+            <li>Automotive Photography</li>
+            <li>Camera Sales</li>
+
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate photographers dedicated to capturing your special moments.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cygnet Photography LLC All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
