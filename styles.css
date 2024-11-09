@@ -60,15 +60,31 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url(/img/cygnetphotohero.jpg); /* Replace with your image path */
+    background-image: url(./img/cygnetphotohero.jpg); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
     height: 400px; /* Set a height for the hero section */
-    display: flex; /* Optional: to center content */
-    align-items: center; /* Optional: to center content vertically */
-    justify-content: center; /* Optional: to center content horizontally */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
     color: white; /* Change text color if needed */
     text-align: center; /* Center text */
+    position: relative; /* Required for absolute positioning of text */
+}
+
+.hero-text {
+    position: relative; /* Allows positioning of text */
+    z-index: 1; /* Ensure text is above the background */
+}
+
+.hero h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Adjust font size as needed */
+}
+
+.hero p {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2em; /* Adjust font size as needed */
 }
 
 section {
