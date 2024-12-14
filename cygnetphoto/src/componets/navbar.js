@@ -6,7 +6,7 @@ const Navbar = () => {
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
-    <div className="navbar bg-base-300 w-full">
+    <div className="navbar w-full bg-white">
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
           <svg
@@ -22,9 +22,9 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-      <div className="mx-2 flex-1 px-4">Cygnet Photography</div>
+      <div className="mx-2 text-black flex-1 px-4 text-xl">Cygnet Photography</div>
       <div className="hidden flex-none lg:block">
-        <ul className="menu menu-horizontal">
+        <ul className="menu menu-horizontal text-black">
           {/* Navbar menu content here */}
           <li><a>Home</a></li>
           <li><a>Portfolio</a></li>
