@@ -22,12 +22,15 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-      <div className="mx-2 text-black flex-1 px-4 text-xl">Cygnet Photography</div>
+      <div className="mx-2 text-black flex-1 px-4 text-xl">
+      <a href="/" className="text-black">Cygnet Photography</a>
+      </div>
       <div className="hidden flex-none lg:block">
         <ul className="menu menu-horizontal text-black">
           {/* Navbar menu content here */}
           <li><a>Home</a></li>
           <li><a>Portfolio</a></li>
+          <li><a>Shop</a></li>
           <li><a>Services</a></li>
           <li><a>About</a></li>
           <li><a>Contact</a></li>
@@ -41,6 +44,7 @@ const Navbar = () => {
       {/* Sidebar content here */}
         <li><a>Home</a></li>
         <li><a>Portfolio</a></li>
+        <li><a>Shop</a></li>
         <li><a>Services</a></li>
         <li><a>About</a></li>
         <li><a>Contact</a></li>

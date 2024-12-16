@@ -10,7 +10,7 @@ function App() {
       <Hero />
       <Footer />
     </div>
-
+    
   );
 }
 
