@@ -1,12 +1,12 @@
 import React from "react";
-import myImage from './swan.jpg';
+import Swan from '../images/swan.jpg';
 
 const Hero = () => {
     return (
 <div
   className="hero min-h-screen"
   style={{
-    backgroundImage: `url(${myImage})`,
+    backgroundImage: `url(${Swan})`,
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
