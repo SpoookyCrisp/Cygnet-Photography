@@ -5,11 +5,11 @@ import Footer from "./componets/footer";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Footer />
-    </div>
+      <div>
+        <Navbar />
+        <Hero />
+        <Footer />
+      </div>
     
   );
 }

@@ -28,12 +28,12 @@ const Navbar = () => {
       <div className="hidden flex-none lg:block">
         <ul className="menu menu-horizontal text-black">
           {/* Navbar menu content here */}
-          <li><a>Home</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Shop</a></li>
-          <li><a>Services</a></li>
-          <li><a>About</a></li>
-          <li><a>Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/shop">Shop</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
       </div>
